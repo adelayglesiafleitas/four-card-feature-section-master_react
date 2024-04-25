@@ -1,0 +1,9 @@
+.container {
+  width: 375px;
+  height: 1360px;
+  background-color: var(--VeryLightGray);
+  display: flex;
+  flex-direction: column;
+}
+
+

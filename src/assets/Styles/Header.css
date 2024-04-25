@@ -1,0 +1,34 @@
+.container_header h1 {
+  font-size: 1.45em;
+  text-align: center;
+  color: var(--GrayishBlue);
+}
+.container_header h2 {
+  font-size: 1.45em;
+  text-align: center;
+  color: var(--VeryDarkBlue);
+  margin-bottom: 30px;
+}
+.container_header p {
+  font-size: 0.89em;
+  text-align: center;
+  color: var(--GrayishBlue);
+}
+.container_header {
+  width: 298px;
+  height: 155px;
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-top: 90px;
+  margin-bottom: 78px;
+}
+
+/*.................(>1440px)......................*/
+@media only screen and (min-width: 1440px) {
+  .container_header {
+    transform: translateX(420px);
+    width: 512px;
+    height: 204px;
+    margin-bottom: 35px;
+  }
+}

@@ -1,0 +1,35 @@
+.container__card img {
+  width: 61px;
+  height: 61px;
+  position: absolute;
+  transform: translateX(195px);
+}
+.container__card {
+  width: 298px;
+  height: 227px;
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-bottom: 25px;
+  border-radius: 6px;
+  box-shadow: 0 8px 8px rgba(0, 0, 0, 0.2);
+  padding: 30px;
+  position: relative;
+  /*animation: backInUp;
+  transition: transform 0.3s;*/
+  cursor: pointer;
+}
+
+/*
+.container__card:hover {
+  transform: scale(1.1);
+}
+*/
+.container__card h4 {
+  font-size: 1.3em;
+  color: var(--VeryDarkBlue);
+}
+.container__card p {
+  font-size: 0.85em;
+  color: var(--GrayishBlue);
+  margin-bottom: 5px;
+}

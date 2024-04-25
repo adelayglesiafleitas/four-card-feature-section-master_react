@@ -1,0 +1,119 @@
+/*********reset********/
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.attribution {
+  font-size: 1.2em;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+:root {
+  /* Primary*/
+
+  --Red: hsl(0, 78%, 62%);
+  --Cyan: hsl(180, 62%, 55%);
+  --Orange: hsl(34, 97%, 64%);
+  --Blue: hsl(212, 86%, 64%);
+
+  /* Neutral*/
+
+  --VeryDarkBlue: hsl(234, 12%, 34%);
+  --GrayishBlue: hsl(229, 6%, 66%);
+  --VeryLightGray: hsl(0, 0%, 98%);
+
+  /*font size*/
+  --Fontsize: 15px;
+
+  /*family*/
+  .poppins-extralight {
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+  }
+
+  .poppins-regular {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .poppins-semibold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+}
+
+body {
+  width: 375px;
+  height: 1360px;
+  margin: 0 auto;
+  background-color: var(--VeryLightGray);
+}
+footer {
+  transform: translateY(-15px);
+}
+
+/*.................(>1440px)......................*/
+@media only screen and (min-width: 1440px) {
+  body {
+    width: 1440px;
+    height: 922px;
+  }
+  .container div {
+    width: 1440px;
+    height: 922px;
+    display: grid;
+    grid-template-columns: 25% 25% 25%;
+    gap: 25px;
+    justify-content: center;
+    justify-items: center;
+    align-content: center;
+    transform: translateY(-155px);
+  }
+  .container {
+    display: block;
+  }
+  .container__card1 {
+    transform: translateY(150px);
+  }
+  .container__card4 {
+    order: 3;
+    transform: translateY(150px);
+  }
+  .container__card3 {
+    order: 4;
+    transform: translatex(385px);
+  }
+
+  .container_header {
+    width: 512px;
+    height: 204px;
+    margin-top: 72px;
+  }
+  .container__card {
+    width: 353px;
+    height: 255px;
+  }
+  .container__card p {
+    margin-bottom: 55px;
+  }
+
+  .container_header h1 {
+    font-size: 2em;
+  }
+  .container_header h2 {
+    font-size: 2em;
+  }
+  .container_header p {
+    font-size: 1em;
+  }
+  footer {
+    transform: translateY(-510px);
+  }
+}
